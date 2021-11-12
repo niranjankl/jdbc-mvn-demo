@@ -64,7 +64,7 @@ public class jdbcDemo{
             System.err.println("Couldn't load driver.");
         }*/
         catch(SQLException e){
-            System.err.println("Couldn't connect to database.");
+            System.err.println("Couldn't connect to database." + e.getMessage());
         }
     }
 
